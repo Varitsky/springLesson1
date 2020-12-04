@@ -28,4 +28,5 @@ public class  CalcServlet extends HttpServlet {
         out.println("<html><body><h1>" + String.format("%d + %d = %d", firstNumber, secondNumber, sum) + "</h1></body></html>");
         out.close();
     }
+
 }
